@@ -14,8 +14,8 @@ export default function HomePage() {
   };
 
   return (
-    <div class="flex items-center justify-center h-screen bg-gray-100">
-      <div class="px-8 py-6 mt-4 w-1/3 h-1/3 text-left bg-white shadow-lg">
+    <div class="flex items-center px-2 justify-center h-screen bg-gray-100">
+      <div class="px-8 py-6 mt-4 w-full lg:w-1/3 h-1/3 text-left bg-white shadow-lg">
         <h3 class="text-2xl font-bold text-center">Welcome to Simple Chat</h3>
         <form action="">
           <div class="mt-4">
