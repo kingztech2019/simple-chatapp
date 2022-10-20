@@ -43,7 +43,6 @@ export default function ChatForm({ setReload }) {
           onKeyDown={(e) => {
             if (e.key === "Enter") {
               sendChat();
-              console.log("You must have pressed Enter ");
             }
           }}
         />
